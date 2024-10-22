@@ -1,204 +1,147 @@
 /* General setup */
-
+/* Configuración general de todos los elementos para tener un borde en caja */
 * {
   box-sizing: border-box;
 }
 
+/* Configuración del cuerpo de la página */
+/* Define márgenes automáticos y asegura un ancho mínimo y máximo para la página */
 body {
   margin: 0 auto;
   min-width: 1000px;
   max-width: 1400px;
+  font-family: 'Georgia', 'Times New Roman', Times, serif; /* Fuente serif para el cuerpo */
+  font-size: 10px; /* Tamaño base de fuente en toda la página */
+  line-height: 1.6; /* Espaciado entre líneas */
+  letter-spacing: 0.5px; /* Espaciado entre letras */
 }
 
 /* Layout */
-
+/* Configuración de las secciones (contenido principal) */
 section {
   float: left;
-  width: 50%;
+  width: 60%; /* Ancho del 60% para la sección principal */
+  padding-right: 30px;
 }
 
+/* Configuración de los elementos al lado derecho (aside) */
 aside {
   float: left;
-  width: 30%;
+  width: 20%; /* Ancho del 35% para el contenido del lado derecho */
+  padding-left: 30px; /* Agrega un espacio interno "padding" de 30 px en el lado izquierdo de un elemento*/
 }
 
+/* Configuración para el menú de navegación a la derecha */
 nav {
-  float: left;
-  width: 20%;
+  float: right; /* Botones alineados a la derecha */
+  width: 15%; /* Ancho reducido para la navegación */
+  
 }
 
 footer {
-  clear: both;
+  clear: both; /* Limpia el flujo para que el pie de página no se superponga */
 }
 
+/* Padding para los elementos de estructura principal */
 header, section, aside, nav, footer {
   padding: 20px;
 }
 
-/* header and footer */
-
+/* Header and footer styling */
+/* Estilo para el encabezado y el pie de página con bordes */
 header, footer {
   border-top: 5px solid #a66;
   border-bottom: 5px solid #a66;
 }
 
-/* WRITE YOUR CODE BELOW HERE */
-/* ADDITIONS FOR ASSIGNMENT */
-
-/* Body and Fonts */
-body {
-  font-family: 'Times New Roman', Times, serif;
-  font-size: 10px;
-  line-height: 1.6;
-  letter-spacing: 0.5px;
-}
-
-/* Header */
+/* Título principal del sitio */
+/* Centra el texto y aplica una fuente sans-serif para un estilo más moderno */
 h1 {
   text-align: center;
-  letter-spacing: 2px;
-  font-family: 'Arial', sans-serif;
+  font-size: 2.5em; /* Tamaño grande para el título */
+  font-family: 'Arial', sans-serif; /* Fuente sans-serif para los encabezados */
+  color: #333;
+  letter-spacing: 2px; /* Espaciado entre letras para mayor legibilidad */
 }
 
-/* Indentation for first paragraphs */
+/* Encabezados de la página */
+h2 {
+  font-size: 1.5em;
+  letter-spacing: 1.5px;
+}
+
+/* Indentación para el primer párrafo en cada sección */
 section > p:first-of-type {
   text-indent: 20px;
 }
 
-/* Links */
+/* Estilo de los enlaces */
 a {
-  color: #a66;
-  text-decoration: underline;
+  color: #a66; /* Color rojo oscuro para los enlaces */
+  text-decoration: underline; /* Subrayado por defecto */
 }
 
+/* Quita el subrayado en hover o focus para los enlaces */
 a:hover, a:focus {
   text-decoration: none;
 }
 
+/* Cambia el color del enlace cuando está activo */
 a:active {
   color: #333;
 }
 
-/* External links with icon */
+/* Añadir icono de enlace externo al final de enlaces externos */
 a[href^="http"]::after {
   content: url('external-link-52.png');
   padding-left: 5px;
 }
 
-/* Navigation menu */
+/* Menú de navegación */
+/* Configura la lista del menú sin viñetas */
 nav ul {
   list-style: none;
   padding: 0;
 }
 
+/* Estilo para cada ítem del menú de navegación */
 nav ul li {
   margin-bottom: 10px;
 }
 
+/* Estilo de los enlaces dentro del menú */
+/* Botones de navegación con estilo de bloque, centrados y con fuente en mayúsculas */
 nav ul li a {
   display: block;
-  padding: 10px;
-  background-color: #f3f3f3;
-  border: 1px solid #ddd;
+  padding: 15px;
+  background-color: #f5f5f5; /* Color de fondo para los botones */
+  border: 1px solid #ccc; /* Borde gris */
   text-align: center;
+  text-transform: uppercase; /* Texto en mayúsculas */
+  font-weight: bold;
+  color: #333;
 }
 
+/* Cambio de color del fondo en hover */
 nav ul li a:hover {
   background-color: #ddd;
 }
 
-/* Lists */
-ul, ol {
+/* Listas dentro de las secciones */
+/* Espaciado para listas numeradas y con viñetas */
+section ul, section ol {
   margin-top: 10px;
   margin-bottom: 10px;
   padding-left: 20px;
 }
 
-ul li {
-  line-height: 1.6;
-  list-style-type: square;
-}
-
-/* Updated for example similarity */
-
-/* Header Style */
-header h1 {
-  text-align: center;
-  font-size: 2.5em;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  color: #333;
-}
-
-/* Section and Aside layout */
-section {
-  width: 60%;
-  padding-right: 30px;
-}
-
-aside {
-  width: 35%;
-  padding-left: 30px;
-}
-
-section, aside {
-  vertical-align: top;
-  padding-bottom: 20px;
-}
-
-/* Links */
-a {
-  color: #a66;
-  text-decoration: underline;
-}
-
-a:hover, a:focus {
-  text-decoration: none;
-}
-
-/* External links with icon */
-a[href^="http"]::after {
-  content: url('external-link-52.png');
-  padding-left: 5px;
-}
-
-/* Navigation menu */
-nav ul {
-  list-style: none;
-  padding: 0;
-}
-
-nav ul li {
-  margin-bottom: 10px;
-}
-
-nav ul li a {
-  display: block;
-  padding: 15px;
-  background-color: #f5f5f5;
-  border: 1px solid #ccc;
-  text-align: center;
-  text-transform: uppercase;
-  font-weight: bold;
-  color: #333;
-}
-
-nav ul li a:hover {
-  background-color: #ddd;
-}
-
-/* Lists inside sections */
-section ul, section ol {
-  margin-top: 15px;
-  margin-bottom: 15px;
-  padding-left: 20px;
-}
-
-section ul li {
+/* Espaciado y estilo de los ítems de las listas */
+section ul li, section ol li {
   line-height: 1.8;
   list-style-type: square;
 }
 
-/* Footer style */
+/* Estilo del pie de página */
 footer {
   border-top: 1px solid #a66;
   text-align: center;
