@@ -1,0 +1,120 @@
+/* General setup */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  min-width: 1000px;
+  max-width: 1400px;
+}
+
+/* Layout */
+
+section {
+  float: left;
+  width: 50%;
+}
+
+aside {
+  float: left;
+  width: 30%;
+}
+
+nav {
+  float: left;
+  width: 20%;
+}
+
+footer {
+  clear: both;
+}
+
+header, section, aside, nav, footer {
+  padding: 20px;
+}
+
+/* header and footer */
+
+header, footer {
+  border-top: 5px solid #a66;
+  border-bottom: 5px solid #a66;
+}
+
+/* WRITE YOUR CODE BELOW HERE */
+/* ADDITIONS FOR ASSIGNMENT */
+
+/* Body and Fonts */
+body {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 10px;
+  line-height: 1.6;
+  letter-spacing: 0.5px;
+}
+
+/* Header */
+h1 {
+  text-align: center;
+  letter-spacing: 2px;
+  font-family: 'Arial', sans-serif;
+}
+
+/* Indentation for first paragraphs */
+section > p:first-of-type {
+  text-indent: 20px;
+}
+
+/* Links */
+a {
+  color: #a66;
+  text-decoration: underline;
+}
+
+a:hover, a:focus {
+  text-decoration: none;
+}
+
+a:active {
+  color: #333;
+}
+
+/* External links with icon */
+a[href^="http"]::after {
+  content: url('external-link-52.png');
+  padding-left: 5px;
+}
+
+/* Navigation menu */
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  margin-bottom: 10px;
+}
+
+nav ul li a {
+  display: block;
+  padding: 10px;
+  background-color: #f3f3f3;
+  border: 1px solid #ddd;
+  text-align: center;
+}
+
+nav ul li a:hover {
+  background-color: #ddd;
+}
+
+/* Lists */
+ul, ol {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-left: 20px;
+}
+
+ul li {
+  line-height: 1.6;
+  list-style-type: square;
+}
