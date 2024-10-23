@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>Example of Bad Font Color Choices</title>
+		<link rel="stylesheet" type="text/css" href="estils01.css">
+	</head>
+	<body>
+		<div class="main">
+			<center><h1>Example of Bad Font Color Choices</h1></center>
+			<ul>
+				<li>
+					One problem with this is <font color="#FFCEFF">that</font> some 
+							<font color="#CECEFF">users</font> may have set the background color which they want to use.
+				</li>
+				<li>
+					Also, <font color="blue">If you define colors</font> 
+							<font color="green">to look good on</font> a background image, but 
+							<font color="red">the visitor doesn't load images</font>, your page may be unreadable.
+				</li>
+				<li>
+					This means that if you choose a color which can't be read on that background 
+							<font color="#FFCECE">that</font> your page will be unreadable.
+				</li>
+				<li>
+					You may make any change you like in the &lt;BODY&gt; code, 
+							since the user over-rides all of these if he chooses to.
+				</li>
+				<li>
+					I <b>highly recommend</b> that you <b>don't use</b> the 
+							&lt;FONT COLOR=????&gt; code.
+				</li>
+			</ul>
+			<h2>JavaScript Background Color Chooser</h2>
+			If you are using a JavaScript-enabled browser, then change the background color to see how the fonts might look
+			on various computers with the background color set to a non-standard color.
+			<p></p>
+			<p></p>
+			<center>
+				<form>
+					<select onchange="document.bgColor = this.options[selectedIndex].value">
+						<option value="FFFFFF">JavaScript Background Chooser</option>
+						<option value="CCFFFF">Blue</option>
+						<option value="99FFFF">Blue 2</option>
+						<option value="66FFCC">Blue-Green</option>
+						<option value="66FF99">Blue-Green 2</option>
+						<option value="CCCC99">Brown</option>
+						<option value="CCCC66">Brown 2</option>
+						<option value="CCFF99">Green</option>
+						<option value="99FFCC">Green 2</option>
+						<option value="EEEEEE">Grey</option>
+						<option value="DDDDDD">Grey 2</option>
+						<option value="FFCC66">Orange</option>
+						<option value="FFCCFF">Pink</option>
+						<option value="FFCCCC">Pink 2</option>
+						<option value="CCCCFF">Purple</option>
+						<option value="FFFFCC">Yellow</option>
+						<option value="FFFF99">Yellow 2</option>
+						<option value="FFFF66">Yellow 3</option>	
+					</select>
+				</form>
+			</center>
+			<p></p>
+		</div>
+	</body>
+</html>

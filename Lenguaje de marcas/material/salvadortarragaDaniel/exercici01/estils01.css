@@ -1,0 +1,28 @@
+body {color: #000000; background-color: 66FF99;}
+a:link {color: #0000FF;} 
+a:visited {color: #600042;}
+.main h1{
+    text-align: center;
+}
+.that{
+    text-align: center;
+    color:#FFCEFF;
+}
+#users{
+    color:#CECEFF;
+}
+.ifyou{
+    color:blue;
+}
+.tolook{
+    color: green;
+}
+.visitor{
+    color:red;
+}
+/*.main li span {
+    color:#FFCECE;
+}*/
+/*.div form{
+    margin-bottom: 100;
+}*/

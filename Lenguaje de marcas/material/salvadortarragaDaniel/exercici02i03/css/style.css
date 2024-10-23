@@ -1,0 +1,12 @@
+#title{
+    color: pink;
+}
+#pyellow{
+    background-color: yellow;
+}
+#pblue{
+    background-color: blue;
+}
+.listanum{
+    list-style-type: decimal;
+}
