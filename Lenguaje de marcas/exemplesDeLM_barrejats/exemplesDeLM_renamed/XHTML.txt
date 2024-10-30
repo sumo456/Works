@@ -1,0 +1,15 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ca" lang="ca">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Exemple de document en XHTML</title>
+</head>
+<body>
+    <h1>Exemple de document en XHTML</h1>
+    <p>Aquest és un paràgraf d'exemple en XHTML. XHTML és una reformulació de l'HTML utilitzant XML, cosa que el fa més estricte i ben formatat.</p>
+    <h2>Introducció</h2>
+    <p>En aquesta secció s'introdueixen els conceptes bàsics d'XHTML.</p>
+    <h2>Conclusió</h2>
+    <p>Aquesta és una secció de conclusió amb un paràgraf d'exemple.</p>
+</body>
+</html>

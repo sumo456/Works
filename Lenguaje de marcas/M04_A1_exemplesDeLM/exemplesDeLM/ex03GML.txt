@@ -1,0 +1,31 @@
+:doc.
+:dochead.
+:title.Exemple de document en GML:title.
+:author.Nom de l'autor:author.
+:date.Juliol 2024:date.
+:dochead.
+
+:sect.
+:st.Exemple de secció:st.
+
+:p.
+Aquest és un paràgraf d'exemple en GML. GML permet definir l'estructura i el format dels documents utilitzant etiquetes personalitzades.
+:p.
+
+:subsect.
+:sst.Introducció:sst.
+
+:p.
+Aquesta subsecció conté un paràgraf introductori.
+:p.
+:subsect.
+
+:subsect.
+:sst.Conclusió:sst.
+
+:p.
+Aquesta subsecció conté un paràgraf de conclusió.
+:p.
+:subsect.
+
+:sect.

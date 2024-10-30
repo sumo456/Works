@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<w:document xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main">
+  <w:body>
+    <w:p>
+      <w:r>
+        <w:t>Exemple de text en un document Word utilitzant OOXML</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:r>
+        <w:t>
+            Els documents .docx estan comprimits en format ZIP
+            i contenen diversos fitxers XML 
+            i altres recursos (com imatges) organitzats en carpetes.
+        </w:t>
+      </w:r>
+    </w:p>   
+    <w:p>
+      <w:r>
+        <w:t>
+            Els fitxers .doc utilitzats per versions més antigues de Microsoft Word (abans de Word 2007) 
+            fan servir un format binari propietari anomenat "Microsoft Word Binary File Format" (BIFF). 
+            Aquest format no és basat en XML com el format .docx i és més difícil d'interpretar manualment, 
+            ja que està estructurat en una forma binària complexa.
+            Es pot baixar un exemple d'aquí: https://file-examples.com/wp-content/storage/2017/02/file-sample_100kB.doc
+        </w:t>
+      </w:r>
+    </w:p>     
+    <w:sectPr>
+      <w:pgSz w:w="12240" w:h="15840"/>
+      <w:pgMar w:top="1440" w:right="1440" w:bottom="1440" w:left="1440" w:header="720" w:footer="720" w:gutter="0"/>
+    </w:sectPr>
+  </w:body>
+</w:document>

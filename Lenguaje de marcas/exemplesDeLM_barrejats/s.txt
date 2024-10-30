@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200">
+  <rect x="50" y="50" width="100" height="100" fill="blue" />
+  <circle cx="150" cy="150" r="50" fill="red" />
+  <text x="50" y="30" font-family="Arial" font-size="20" fill="black">Exemple SVG</text>
+</svg>
+
+
+

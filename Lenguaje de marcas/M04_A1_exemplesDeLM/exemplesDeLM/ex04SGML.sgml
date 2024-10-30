@@ -1,0 +1,25 @@
+<!DOCTYPE article [
+  <!ELEMENT article (title, author, date, section+)>
+  <!ELEMENT title (#PCDATA)>
+  <!ELEMENT author (#PCDATA)>
+  <!ELEMENT date (#PCDATA)>
+  <!ELEMENT section (sectitle, paragraph+)>
+  <!ELEMENT sectitle (#PCDATA)>
+  <!ELEMENT paragraph (#PCDATA)>
+]>
+
+<article>
+  <title>Exemple de document en SGML</title>
+  <author>Nom de l'autor</author>
+  <date>Juliol 2024</date>
+  
+  <section>
+    <sectitle>Introducció</sectitle>
+    <paragraph>Aquest és un paràgraf d'exemple en SGML. SGML permet definir estructures de documents complexes amb etiquetes personalitzades.</paragraph>
+  </section>
+  
+  <section>
+    <sectitle>Conclusió</sectitle>
+    <paragraph>Aquesta és una subsecció de conclusió amb un paràgraf d'exemple.</paragraph>
+  </section>
+</article>

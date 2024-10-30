@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document>
+    <title>Exemple de document en XML</title>
+    <section>
+        <heading>Introducció</heading>
+        <paragraph>Aquest és un paràgraf d'exemple en XML. XML s'utilitza per emmagatzemar i transportar dades.</paragraph>
+    </section>
+    <section>
+        <heading>Conclusió</heading>
+        <paragraph>Aquí finalitza l'exemple de document en XML.</paragraph>
+    </section>
+</document>
+

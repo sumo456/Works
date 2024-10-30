@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd">
+<article>
+    <title>Exemple de document en DocBook</title>
+    <section>
+        <title>Introducció</title>
+        <para>Aquest és un paràgraf d'exemple en DocBook. DocBook s'utilitza per a la creació de documentació tècnica.</para>
+    </section>
+    <section>
+        <title>Conclusió</title>
+        <para>Aquí finalitza l'exemple de document en DocBook.</para>
+    </section>
+</article>

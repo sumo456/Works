@@ -1,0 +1,22 @@
+%!PS
+
+% Definició del rectangle
+newpath
+100 100 moveto       % Mova el punt inicial a (100, 100)
+200 100 lineto       % Dibuixi una línia horitzontal a (200, 100)
+200 200 lineto       % Dibuixi una línia vertical a (200, 200)
+100 200 lineto       % Dibuixi una línia horitzontal a (100, 200)
+closepath            % Tanqui el camí del rectangle
+
+% Defineix el color rosa (RGB: 1 0.75 0.79)
+1.0 0.75 0.79 setrgbcolor
+
+% Ompli el rectangle amb el color definit
+fill
+
+% Dibuixi el contorn del rectangle
+0 setgray            % Restableix el color a gris per al contorn
+stroke
+
+% Fi del document
+showpage

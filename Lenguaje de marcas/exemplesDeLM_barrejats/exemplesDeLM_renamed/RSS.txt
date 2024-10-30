@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Exemple de Canal RSS</title>
+    <link>http://www.exemple.com</link>
+    <description>Canal RSS amb exemples.</description>
+    <item>
+      <title>Notícia 1</title>
+      <link>http://www.exemple.com/noticia1</link>
+      <description>Descripció de la notícia 1.</description>
+      <pubDate>Thu, 05 Jul 2024 08:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Notícia 2</title>
+      <link>http://www.exemple.com/noticia2</link>
+      <description>Descripció de la notícia 2.</description>
+      <pubDate>Wed, 04 Jul 2024 12:00:00 GMT</pubDate>
+    </item>
+  </channel>
+  <!--
+  Per exemple, per baixar l'especificació del forma BIFF (Word97) es pot visitar la pàgina 
+    https://learn.microsoft.com/en-us/openspecs/office_file_formats/ms-doc/ccd7b486-7881-484c-a137-51170af7cc22 
+  i descarregar el fitxer corresponent.
+  Si ens cal estar "atents" als canvis que Microsoft pugui fer a l'especificació, 
+        ens podem subscriure (cal un plugin del navegador [com Feedbro pel Firefox], un programa o un servidor) 
+            al seu canal RSS a partir de l'enllaç "RSS feed" de la mateixa pàgina:
+                https://msopenspecs.azureedge.net/files/MS-DOC/%5bMS-DOC%5d.rss
+  -->
+</rss>

@@ -1,0 +1,8 @@
+# Exemple de fitxer .rng
+
+element article {
+  attribute id { xsd:string },
+  element title { xsd:string },
+  element author { xsd:string },
+  element content { xsd:string }
+}

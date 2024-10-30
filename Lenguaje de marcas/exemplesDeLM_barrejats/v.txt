@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN"
+     "http://www.wapforum.org/DTD/wml_1.1.xml">
+<wml>
+  <card id="card1" title="Primera targeta">
+    <p>
+      Benvingut a la meva pàgina WML (Wireless Markup Language)!<br/>
+      <a href="#card2">Anar a la segona targeta</a>
+    </p>
+  </card>
+  <card id="card2" title="Segona targeta">
+    <p>
+      Aquesta és la segona targeta.<br/>
+      <a href="#card1">Tornar a la primera targeta</a>
+    </p>
+  </card>
+</wml>
+

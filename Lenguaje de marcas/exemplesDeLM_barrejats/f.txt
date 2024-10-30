@@ -1,0 +1,14 @@
+\documentclass{article}
+\begin{document}
+\title{Exemple de document en LaTeX}
+\author{Nom de l'autor}
+\date{\today}
+\maketitle
+
+\section{Introducció}
+Aquest és un paràgraf d'exemple.
+
+\section{Conclusió}
+Aquí finalitza l'exemple.
+\end{document}
+
