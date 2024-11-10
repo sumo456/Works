@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Ejercicio 7</title>
+</head>
+<body>
+    <div id="div1">
+        <h3>Div 1</h3>
+        <button id="botonDiv1">Mostrar Div 2</button>
+    </div>
+    <div id="div2" style="display:none;">
+        <h3>Div 2</h3>
+        <button id="botonDiv2">Mostrar Div 1</button>
+    </div>
+    <script>
+        document.getElementById("botonDiv1").addEventListener("click", function() {
+            document.getElementById("div1").style.display = "none";
+            document.getElementById("div2").style.display = "block";
+        });
+        document.getElementById("botonDiv2").addEventListener("click", function() {
+            document.getElementById("div2").style.display = "none";
+            document.getElementById("div1").style.display = "block";
+        });
+    </script>
+</body>
+</html>

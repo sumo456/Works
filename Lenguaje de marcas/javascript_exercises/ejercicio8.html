@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Ejercicio 8</title>
+</head>
+<body>
+    <h3>Formulario</h3>
+    <input type="text" id="nombre" placeholder="Introduce tu nombre">
+    <div id="saludo"></div>
+    <button id="boton8">Enviar</button>
+    <script>
+        document.getElementById("boton8").addEventListener("click", function() {
+            const nombre = document.getElementById("nombre").value;
+            document.getElementById("saludo").innerText = "Hola, " + nombre;
+        });
+    </script>
+</body>
+</html>

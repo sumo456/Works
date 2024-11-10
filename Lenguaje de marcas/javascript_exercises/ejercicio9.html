@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Ejercicio 9</title>
+</head>
+<body>
+    <div id="formulario">
+        <h3>Formulario</h3>
+        <input type="text" id="nombre" placeholder="Introduce tu nombre">
+        <button id="boton9">Enviar</button>
+    </div>
+    <div id="saludo" style="display:none;">
+        <h1 id="nombreSaludo"></h1>
+        <button id="botonRegresar">Regresar</button>
+    </div>
+    <script>
+        document.getElementById("boton9").addEventListener("click", function() {
+            const nombre = document.getElementById("nombre").value;
+            document.getElementById("nombreSaludo").innerText = "Hola, " + nombre;
+            document.getElementById("formulario").style.display = "none";
+            document.getElementById("saludo").style.display = "block";
+        });
+        document.getElementById("botonRegresar").addEventListener("click", function() {
+            document.getElementById("formulario").style.display = "block";
+            document.getElementById("saludo").style.display = "none";
+        });
+    </script>
+</body>
+</html>

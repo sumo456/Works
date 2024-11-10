@@ -5,12 +5,11 @@
     <title>Ejercicio 1</title>
 </head>
 <body>
-    <button onclick="mostrarAlerta()">Haz clic aquí</button>
-
+    <button id="boton1">Pulsa aquí</button>
     <script>
-        function mostrarAlerta() {
+        document.getElementById("boton1").addEventListener("click", function() {
             alert("¡Botón pulsado!");
-        }
+        });
     </script>
 </body>
 </html>
