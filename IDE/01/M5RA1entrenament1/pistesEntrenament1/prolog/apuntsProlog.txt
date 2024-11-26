@@ -1,0 +1,13 @@
+GNU Prolog: http://www.gprolog.org/ 
+Manual de GNU Prolog: http://www.gprolog.org/manual/gprolog.html#sec4
+** Instal·lació **
+sudo apt install gprolog
+
+** Instruccions típiques: **
+gprolog --version
+gprolog --help
+gprolog --consult-file arbolFamiliar.pl
+** obre un entorn interactiu en el que pots executar "preguntes" sobre els fets+regles del fitxer "consultat" (carregat)
+Quan es fan preguntes surt la primera resposta. Amb ";" pots veure la següent resposta (si diu "no" és que no hi ha més respostes). Amb "fletxa amunt" et surt un menú amb altres opcions.
+CTRL+C per interrompre un procés (amb "h", surt un menú per "debuggar" amb una opció "e" per sortir de gprolog (o pots escriure "e" quan et proposa la "h").
+

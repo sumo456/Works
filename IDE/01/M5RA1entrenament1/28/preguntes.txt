@@ -1,0 +1,18 @@
+miguel ens pregunta si li podem dir...
+1.- ¿Quién es mi papá?
+2.- ¿Quién es mi mamá?
+3.- ¿Quién es mi abuelo?
+4.- ¿Quién es mi abuela?
+5.- ¿Quién es mi hermana?
+
+Pistes:
+esPadreDe(X,miguel).
+esMadreDe(X,miguel).
+un altre exemple:
+esNietoDe(X,sara).
+
+Respostes: (escriure-les a partir d'aquí)
+
+
+
+

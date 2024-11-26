@@ -1,0 +1,7 @@
+Està en FORTRAN "antic"
+
+Per instal·lar:
+sudo apt install gfortran
+
+Per compilar:
+gfortran prova.for -o suma_numeros

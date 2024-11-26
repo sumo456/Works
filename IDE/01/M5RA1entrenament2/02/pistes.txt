@@ -1,0 +1,6 @@
+Es un programa en Haskell
+
+Que cal fer per executar un programa Haskell:
+Instalar GHC: sudo apt install ghc
+Compilar amb: ghc fitxer.hs
+Executar amb: ./fitxer

@@ -1,0 +1,6 @@
+parent(X,jimmy).
+mother(X,Y).
+haschild(X).
+sister(X,Y).
+
+

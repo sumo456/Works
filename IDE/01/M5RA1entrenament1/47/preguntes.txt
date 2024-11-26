@@ -1,0 +1,6 @@
+son(karim,rahil).
+son(joseph,karim).
+daughter(trisha,kabil).
+daughter(riya,kabir).
+sibling(karim,kabil).
+

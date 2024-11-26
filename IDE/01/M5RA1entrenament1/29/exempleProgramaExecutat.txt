@@ -1,0 +1,4 @@
+Enter an operator (+, -, *,): *
+Enter two operands: 1.5
+4.5
+1.5 * 4.5 = 6.8

@@ -1,0 +1,6 @@
+Article "motivacional" (lectura opcional, baixat en format PDF):
+https://www.xataka.com/aplicaciones/lenguaje-cobol-se-ha-convertido-quebradero-cabeza-ibm-tiene-solucion-traductor-ia
+
+Per executar COBOL a Ubuntu (lectura i comprovació obligatòria):
+https://askubuntu.com/questions/287180/how-to-compile-and-run-a-cobol-program
+
