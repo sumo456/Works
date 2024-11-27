@@ -1,0 +1,14 @@
+<?xml version = "1.0"?>
+<contact-info>
+   <name>Tanmay Patil</name>
+   <company>TutorialsPoint</company>
+   <phone>(011) 123-4567</phone>
+</contact-info>
+<!-- 
+    Es demana una DTD el més restrictiva posible que tingui en compte:
+        1) Només hi ha un contact-info per document XML
+        2) Cada persona té un nom i només un
+        3) Cada persona ha de tenir un telèfon, però en pot tenir més
+        4) L'ordre dels elements sempre és el mateix
+    IMPORTANT: No oblideu afegir la instrucció DOCTYPE corresponent.
+-->

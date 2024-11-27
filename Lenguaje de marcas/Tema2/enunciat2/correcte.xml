@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE biblioteca SYSTEM "biblioteca.dtd">
+<biblioteca>
+    <editorial>
+        <raosocial>Editorial Glénat</raosocial>
+        <adreca>
+                <carrer>Descampat</carrer>
+                <numero>5</numero>
+                <codipostal>17600</codipostal>
+                <poblacio>Figueres</poblacio>
+        </adreca>
+        <contacte>manel@glenat.cat</contacte>
+        
+        <llibre>           
+            <titol>Patatim</titol>
+            <publicacio>14 de maig de 2008</publicacio>
+            <autor>
+                <nom>Federicu</nom>  
+                <cognom>Pi</cognom>
+                <cognom>Torrat</cognom>
+                <adreca>
+                    <carrer>Pollastres</carrer>
+                    <numero>5</numero>
+                    <codipostal>17761</codipostal>
+                    <poblacio>Cabanes</poblacio>
+                </adreca>              
+            </autor>
+            <premis>
+                <premi>Premi Planeta 2008</premi>
+                <premi>Premi Social 2009</premi>
+            </premis>
+            <argument>
+                La història va de patatim, patatam, patatum... 
+            </argument>
+        </llibre>
+
+        <llibre>
+        <titol>Pim Pam</titol>
+        <publicacio>23 d'abril de 2009</publicacio>
+        <autor>
+        
+            <nom>Mariano</nom>  
+            <cognom>Garcia</cognom>
+            <cognom>Garcia</cognom>
+            <adreca>
+                <carrer>Sabates noves</carrer>
+                <numero>23</numero>
+                <pis>23 A</pis>
+                <codipostal>17760</codipostal>
+                <poblacio>Vilabertran</poblacio>
+            </adreca>              
+        </autor>
+        <premis>
+            <premi>Premi Ramoneda 2009</premi>
+        </premis>
+        <argument>
+            La història va de música...  
+        </argument>
+    </llibre>
+    
+    </editorial>
+    <editorial>
+        <raosocial>Sant Lluis</raosocial>
+        <adreca>
+            <carrer>Ferreries</carrer>
+            <numero>32</numero>
+            <codipostal>17600</codipostal>
+            <poblacio>Figueres</poblacio>
+        </adreca>
+    </editorial>
+    
+</biblioteca>
