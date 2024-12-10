@@ -1,0 +1,4 @@
+Es demana:
+	1) Obtenir el codi objecte i l'executable. Si no és possible generar algun dels dos expliqueu aquí quin(s) i els motius.
+	2) Comptar el número de lletres, paraules i línies del text d'exemple (fitxer exemple.txt) amb el programa.
+	3) Fer una captura del terminal on es vegi com heu fet les operacions anteriors. Desar la imatge en aquesta mateixa carpeta.

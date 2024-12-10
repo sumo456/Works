@@ -1,0 +1,6 @@
+Es demana:
+	1) Obtenir el codi objecte i l'executable. Si no és possible generar algun dels dos expliqueu aquí quin(s) i els motius.
+	2) Calcular el valor de 2+3 amb el programa.
+	3) Calcular el valor de 10+10 amb el programa.
+	4) Calcular la llista de totes les parelles de números que sumen 6 (usant el programa i una única instrucció).
+	5) Fer una captura del terminal on es vegi com heu fet les operacions anteriors. Desar la imatge en aquesta mateixa carpeta.

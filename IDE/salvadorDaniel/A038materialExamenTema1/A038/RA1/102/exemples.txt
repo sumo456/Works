@@ -1,0 +1,6 @@
+% Exemples de consulta:
+% ?- suma(3, 5, S).
+% S = 8.
+
+% ?- suma(7, 2, S).
+% S = 9.

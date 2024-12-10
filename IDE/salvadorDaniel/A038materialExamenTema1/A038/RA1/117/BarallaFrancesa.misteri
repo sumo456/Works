@@ -1,0 +1,66 @@
+// Classe Carta
+class Carta {
+    private String valor;
+    private String pal;
+
+    public Carta(String valor, String pal) {
+        this.valor = valor;
+        this.pal = pal;
+    }
+
+    public String getValor() {
+        return valor;
+    }
+
+    public String getPal() {
+        return pal;
+    }
+
+    @Override
+    public String toString() {
+        return valor + " de " + pal;
+    }
+}
+
+// Classe Baralla
+class Baralla {
+    private Carta[] cartes;
+
+    public Baralla() {
+        String[] valors = {"As", "2", "3", "4", "5", "6", "7", "8", "9", "10", "J", "Q", "K"};
+        String[] pals = {"Cors", "Diamants", "Clubs", "Espases"};
+        cartes = new Carta[valors.length * pals.length];
+
+        int index = 0;
+
+        for (String valor : valors) {
+			for (String pal : pals) {				
+                cartes[index++] = new Carta(valor, pal);
+            }
+        }
+    }
+
+    public void mostrarCartes() {
+        System.out.println("Cartes de la baralla francesa:");
+        System.out.println("-----------------------------");
+        int index = 0;        
+        for (Carta carta : cartes) {
+            System.out.print(carta+"\t");
+            index++;
+            if (index >=4) {
+				System.out.println("");
+				index = 0;
+			}
+        }
+        System.out.println("-----------------------------");
+        System.out.println("Final de la baralla.");
+    }
+}
+
+// Classe principal
+public class BarallaFrancesa {
+    public static void main(String[] args) {
+        Baralla baralla = new Baralla();
+        baralla.mostrarCartes();
+    }
+}
